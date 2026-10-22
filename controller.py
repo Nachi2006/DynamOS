@@ -112,7 +112,7 @@ def calculate_features(previous, current, elapsed):
 def apply_scheduling(container, pid, workload):
     policies = {
         "workload-cpu":   {"nice": 5,  "shares": 768},
-        "workload-io":    {"nice": 0, "shares": 1536},
+        "workload-io":    {"nice": 2, "shares": 1536},
         "workload-mixed": {"nice": 0,  "shares": 1024},
     }
 
