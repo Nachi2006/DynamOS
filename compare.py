@@ -2,7 +2,7 @@
 import pandas as pd
 
 base_path = "data/results/benchmark/baseline_telemetry.csv"
-dyn_path = "data/results/benchmark/dynamos_telemetry.csv"
+dyn_path = "data/results/benchmark/dynamos_tuned_telemetry.csv"
 
 base = pd.read_csv(base_path)
 dyn = pd.read_csv(dyn_path)
